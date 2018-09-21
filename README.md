@@ -3,7 +3,9 @@
 - [Charts绘制K线图研究过程](https://www.jianshu.com/p/f70fe1730357)
 
 ### 成果图
-![横屏k线长按效果](https://github.com/iCoobin/KLineDemo/blob/master/%E6%A8%AA%E5%B1%8Fk%E7%BA%BF%E9%95%BF%E6%8C%89%E6%95%88%E6%9E%9C.png =220x124)
+<div align=center><img width="220" height="124" src="https://github.com/iCoobin/KLineDemo/blob/master/%E6%A8%AA%E5%B1%8Fk%E7%BA%BF%E9%95%BF%E6%8C%89%E6%95%88%E6%9E%9C.png" alt="横屏k线长按效果"/></div>
+
+![横屏k线长按效果](https://github.com/iCoobin/KLineDemo/blob/master/%E6%A8%AA%E5%B1%8Fk%E7%BA%BF%E9%95%BF%E6%8C%89%E6%95%88%E6%9E%9C.png)
 
 ![竖屏k线长按效果](https://github.com/iCoobin/KLineDemo/blob/master/%E7%AB%96%E5%B1%8Fk%E7%BA%BF%E9%95%BF%E6%8C%89%E6%95%88%E6%9E%9C.png)
 
