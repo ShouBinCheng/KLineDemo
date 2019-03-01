@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Charts (3.2.3):
+    - Charts/Core (= 3.2.3)
+  - Charts/Core (3.2.3)
+  - DGActivityIndicatorView (2.1.1)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - Result (4.1.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts (from `https://github.com/iCoobin/Charts.git`, tag `3.2.3-myself`)
+  - DGActivityIndicatorView
+  - Moya
+  - ObjectMapper
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DGActivityIndicatorView
+    - Moya
+    - ObjectMapper
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Charts:
+    :git: https://github.com/iCoobin/Charts.git
+    :tag: 3.2.3-myself
+
+CHECKOUT OPTIONS:
+  Charts:
+    :git: https://github.com/iCoobin/Charts.git
+    :tag: 3.2.3-myself
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Charts: a3ad31cf8f8a714644a25e5b38260091cbcc1ce2
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 199416695d5d8885b0abe55993f9be2be8317c2c
+
+COCOAPODS: 1.5.3

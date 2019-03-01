@@ -1,0 +1,27 @@
+platform :ios, '9.0'
+
+target 'KLineDemo' do
+  use_frameworks!
+  inhibit_all_warnings!     #忽略警告 
+
+  pod 'Alamofire'           #网络请求库
+  pod 'Moya'                #网络层封装
+  pod 'RxSwift'             #响应式
+  pod 'RxCocoa'             #Cocoa响应式扩展
+#  pod 'Charts'              #图表库
+
+  #改动CandleStickChartRenderer,增加最高低价显示，以收盘价为中心原点
+  pod 'Charts', git:"https://github.com/iCoobin/Charts.git", tag:"3.2.3-myself"
+  pod 'SnapKit'             #布局
+  pod 'ObjectMapper'        #模型
+  pod 'DGActivityIndicatorView' #Loading
+
+  target 'KLineDemoTests' do
+    inherit! :search_paths
+  end
+
+  target 'KLineDemoUITests' do
+    inherit! :search_paths
+  end
+
+end

@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145032BB2227D382004AFE56 /* KLineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032BA2227D382004AFE56 /* KLineDemoTests.swift */; };
+		145032C62227D382004AFE56 /* KLineDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032C52227D382004AFE56 /* KLineDemoUITests.swift */; };
+		145032E02227D5BD004AFE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145032D82227D5BD004AFE56 /* Assets.xcassets */; };
+		145032E12227D5BD004AFE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145032D92227D5BD004AFE56 /* LaunchScreen.storyboard */; };
+		145032E32227D5BD004AFE56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032DF2227D5BD004AFE56 /* AppDelegate.swift */; };
+		145032E72227D622004AFE56 /* ViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032E42227D622004AFE56 /* ViewControllerCell.swift */; };
+		145032E82227D622004AFE56 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032E52227D622004AFE56 /* NavigationController.swift */; };
+		145032E92227D622004AFE56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032E62227D622004AFE56 /* ViewController.swift */; };
+		145032EB2227D637004AFE56 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032EA2227D637004AFE56 /* Config.swift */; };
+		145033132227D644004AFE56 /* TargetType+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032ED2227D643004AFE56 /* TargetType+extension.swift */; };
+		145033142227D644004AFE56 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032EE2227D643004AFE56 /* BaseResponse.swift */; };
+		145033152227D644004AFE56 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032EF2227D643004AFE56 /* Service.swift */; };
+		145033162227D644004AFE56 /* FromModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032F02227D643004AFE56 /* FromModelProtocol.swift */; };
+		145033172227D644004AFE56 /* KLineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032F22227D643004AFE56 /* KLineService.swift */; };
+		145033182227D644004AFE56 /* KLineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032F32227D643004AFE56 /* KLineResponse.swift */; };
+		145033192227D644004AFE56 /* HXCandleStickChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032F72227D643004AFE56 /* HXCandleStickChartRenderer.swift */; };
+		1450331A2227D644004AFE56 /* Line2ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032F82227D643004AFE56 /* Line2ChartViewController.swift */; };
+		1450331B2227D644004AFE56 /* CombinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032F92227D643004AFE56 /* CombinedViewController.swift */; };
+		1450331C2227D644004AFE56 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032FA2227D643004AFE56 /* LineChartViewController.swift */; };
+		1450331D2227D644004AFE56 /* CandleStickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032FB2227D643004AFE56 /* CandleStickViewController.swift */; };
+		1450331E2227D644004AFE56 /* Combined2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032FC2227D643004AFE56 /* Combined2ViewController.swift */; };
+		1450331F2227D644004AFE56 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032FD2227D643004AFE56 /* BarViewController.swift */; };
+		145033202227D644004AFE56 /* CombinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032FF2227D643004AFE56 /* CombinedView.swift */; };
+		145033212227D644004AFE56 /* FiveTradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033012227D644004AFE56 /* FiveTradeModel.swift */; };
+		145033222227D644004AFE56 /* KLineSampleDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033022227D644004AFE56 /* KLineSampleDataResponse.swift */; };
+		145033232227D644004AFE56 /* KLineModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033032227D644004AFE56 /* KLineModel2.swift */; };
+		145033242227D644004AFE56 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033062227D644004AFE56 /* UIColor+extension.swift */; };
+		145033252227D644004AFE56 /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033072227D644004AFE56 /* UILabel+extension.swift */; };
+		145033262227D644004AFE56 /* NSObject+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033082227D644004AFE56 /* NSObject+extension.swift */; };
+		145033272227D644004AFE56 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033092227D644004AFE56 /* UIView+extension.swift */; };
+		145033282227D644004AFE56 /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1450330A2227D644004AFE56 /* UITableView+extension.swift */; };
+		145033292227D644004AFE56 /* UtilSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1450330C2227D644004AFE56 /* UtilSampleData.swift */; };
+		1450332A2227D644004AFE56 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1450330E2227D644004AFE56 /* BaseCell.swift */; };
+		1450332B2227D644004AFE56 /* DefaultConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033102227D644004AFE56 /* DefaultConst.swift */; };
+		1450332C2227D644004AFE56 /* ColorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033112227D644004AFE56 /* ColorConst.swift */; };
+		1450332D2227D644004AFE56 /* APISConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033122227D644004AFE56 /* APISConst.swift */; };
+		145033372227D7C3004AFE56 /* timeLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 1450332F2227D7C3004AFE56 /* timeLineForDay.json */; };
+		145033382227D7C3004AFE56 /* kLineForMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 145033302227D7C3004AFE56 /* kLineForMonth.json */; };
+		145033392227D7C3004AFE56 /* kLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 145033312227D7C3004AFE56 /* kLineForDay.json */; };
+		1450333A2227D7C3004AFE56 /* kLineForWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 145033322227D7C3004AFE56 /* kLineForWeek.json */; };
+		1450333B2227D7C3004AFE56 /* timeLineForFiveday.json in Resources */ = {isa = PBXBuildFile; fileRef = 145033332227D7C3004AFE56 /* timeLineForFiveday.json */; };
+		1450333C2227D7C3004AFE56 /* fiveTrade.json in Resources */ = {isa = PBXBuildFile; fileRef = 145033342227D7C3004AFE56 /* fiveTrade.json */; };
+		1450333D2227D7C3004AFE56 /* fiveTrade.temp_caseinsensitive_rename.json in Resources */ = {isa = PBXBuildFile; fileRef = 145033352227D7C3004AFE56 /* fiveTrade.temp_caseinsensitive_rename.json */; };
+		1450333E2227D7C3004AFE56 /* SZ300033.json in Resources */ = {isa = PBXBuildFile; fileRef = 145033362227D7C3004AFE56 /* SZ300033.json */; };
+		1450338A2227E8B1004AFE56 /* KLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033882227E8B1004AFE56 /* KLineView.swift */; };
+		1450338B2227E8B1004AFE56 /* KLineBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033892227E8B1004AFE56 /* KLineBaseView.swift */; };
+		1450338D2228D179004AFE56 /* KLineConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1450338C2228D179004AFE56 /* KLineConst.swift */; };
+		1450338F2228D202004AFE56 /* KLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1450338E2228D202004AFE56 /* KLineModel.swift */; };
+		145033912228D2A0004AFE56 /* Double+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033902228D2A0004AFE56 /* Double+extension.swift */; };
+		145033982228D3C2004AFE56 /* KLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033972228D3C2004AFE56 /* KLineViewController.swift */; };
+		1450339A2228D3F1004AFE56 /* KLineFullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033992228D3F1004AFE56 /* KLineFullScreenViewController.swift */; };
+		1450339D2228D6EB004AFE56 /* UtilAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1450339C2228D6EB004AFE56 /* UtilAlgorithm.swift */; };
+		1450339F2228D987004AFE56 /* KLineInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1450339E2228D987004AFE56 /* KLineInfoView.swift */; };
+		145033A12228D9B9004AFE56 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033A02228D9B9004AFE56 /* BaseView.swift */; };
+		145033A32228D9E4004AFE56 /* KLineInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033A22228D9E4004AFE56 /* KLineInfoViewModel.swift */; };
+		145033A52228DA06004AFE56 /* UtilDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145033A42228DA06004AFE56 /* UtilDate.swift */; };
+		60ED087415F5FD1461D32A60 /* Pods_KLineDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B14B8BC785482EF7D363C2A /* Pods_KLineDemoTests.framework */; };
+		9194EAC90546D38B3EA25881 /* Pods_KLineDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8963C5AE2AD43ED5F17B5702 /* Pods_KLineDemoUITests.framework */; };
+		94F36186CCA7F2AB01EF2561 /* Pods_KLineDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C53B6F06E25B9DD49E81BC /* Pods_KLineDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		145032B72227D382004AFE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1450329A2227D380004AFE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145032A12227D380004AFE56;
+			remoteInfo = KLineDemo;
+		};
+		145032C22227D382004AFE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1450329A2227D380004AFE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145032A12227D380004AFE56;
+			remoteInfo = KLineDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145032A22227D380004AFE56 /* KLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145032B12227D382004AFE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145032B62227D382004AFE56 /* KLineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145032BA2227D382004AFE56 /* KLineDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineDemoTests.swift; sourceTree = "<group>"; };
+		145032BC2227D382004AFE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145032C12227D382004AFE56 /* KLineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145032C52227D382004AFE56 /* KLineDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineDemoUITests.swift; sourceTree = "<group>"; };
+		145032C72227D382004AFE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145032D82227D5BD004AFE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		145032DA2227D5BD004AFE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		145032DF2227D5BD004AFE56 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		145032E42227D622004AFE56 /* ViewControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCell.swift; sourceTree = "<group>"; };
+		145032E52227D622004AFE56 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		145032E62227D622004AFE56 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		145032EA2227D637004AFE56 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		145032ED2227D643004AFE56 /* TargetType+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargetType+extension.swift"; sourceTree = "<group>"; };
+		145032EE2227D643004AFE56 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		145032EF2227D643004AFE56 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		145032F02227D643004AFE56 /* FromModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromModelProtocol.swift; sourceTree = "<group>"; };
+		145032F22227D643004AFE56 /* KLineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineService.swift; sourceTree = "<group>"; };
+		145032F32227D643004AFE56 /* KLineResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineResponse.swift; sourceTree = "<group>"; };
+		145032F72227D643004AFE56 /* HXCandleStickChartRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXCandleStickChartRenderer.swift; sourceTree = "<group>"; };
+		145032F82227D643004AFE56 /* Line2ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line2ChartViewController.swift; sourceTree = "<group>"; };
+		145032F92227D643004AFE56 /* CombinedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedViewController.swift; sourceTree = "<group>"; };
+		145032FA2227D643004AFE56 /* LineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		145032FB2227D643004AFE56 /* CandleStickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleStickViewController.swift; sourceTree = "<group>"; };
+		145032FC2227D643004AFE56 /* Combined2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combined2ViewController.swift; sourceTree = "<group>"; };
+		145032FD2227D643004AFE56 /* BarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		145032FF2227D643004AFE56 /* CombinedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedView.swift; sourceTree = "<group>"; };
+		145033012227D644004AFE56 /* FiveTradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveTradeModel.swift; sourceTree = "<group>"; };
+		145033022227D644004AFE56 /* KLineSampleDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineSampleDataResponse.swift; sourceTree = "<group>"; };
+		145033032227D644004AFE56 /* KLineModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineModel2.swift; sourceTree = "<group>"; };
+		145033062227D644004AFE56 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		145033072227D644004AFE56 /* UILabel+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
+		145033082227D644004AFE56 /* NSObject+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+extension.swift"; sourceTree = "<group>"; };
+		145033092227D644004AFE56 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		1450330A2227D644004AFE56 /* UITableView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+extension.swift"; sourceTree = "<group>"; };
+		1450330C2227D644004AFE56 /* UtilSampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilSampleData.swift; sourceTree = "<group>"; };
+		1450330E2227D644004AFE56 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		145033102227D644004AFE56 /* DefaultConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultConst.swift; sourceTree = "<group>"; };
+		145033112227D644004AFE56 /* ColorConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConst.swift; sourceTree = "<group>"; };
+		145033122227D644004AFE56 /* APISConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISConst.swift; sourceTree = "<group>"; };
+		1450332F2227D7C3004AFE56 /* timeLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForDay.json; sourceTree = "<group>"; };
+		145033302227D7C3004AFE56 /* kLineForMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForMonth.json; sourceTree = "<group>"; };
+		145033312227D7C3004AFE56 /* kLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForDay.json; sourceTree = "<group>"; };
+		145033322227D7C3004AFE56 /* kLineForWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForWeek.json; sourceTree = "<group>"; };
+		145033332227D7C3004AFE56 /* timeLineForFiveday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForFiveday.json; sourceTree = "<group>"; };
+		145033342227D7C3004AFE56 /* fiveTrade.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fiveTrade.json; sourceTree = "<group>"; };
+		145033352227D7C3004AFE56 /* fiveTrade.temp_caseinsensitive_rename.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fiveTrade.temp_caseinsensitive_rename.json; sourceTree = "<group>"; };
+		145033362227D7C3004AFE56 /* SZ300033.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SZ300033.json; sourceTree = "<group>"; };
+		145033882227E8B1004AFE56 /* KLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineView.swift; sourceTree = "<group>"; };
+		145033892227E8B1004AFE56 /* KLineBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineBaseView.swift; sourceTree = "<group>"; };
+		1450338C2228D179004AFE56 /* KLineConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineConst.swift; sourceTree = "<group>"; };
+		1450338E2228D202004AFE56 /* KLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineModel.swift; sourceTree = "<group>"; };
+		145033902228D2A0004AFE56 /* Double+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+extension.swift"; sourceTree = "<group>"; };
+		145033972228D3C2004AFE56 /* KLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineViewController.swift; sourceTree = "<group>"; };
+		145033992228D3F1004AFE56 /* KLineFullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineFullScreenViewController.swift; sourceTree = "<group>"; };
+		1450339C2228D6EB004AFE56 /* UtilAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilAlgorithm.swift; sourceTree = "<group>"; };
+		1450339E2228D987004AFE56 /* KLineInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineInfoView.swift; sourceTree = "<group>"; };
+		145033A02228D9B9004AFE56 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		145033A22228D9E4004AFE56 /* KLineInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineInfoViewModel.swift; sourceTree = "<group>"; };
+		145033A42228DA06004AFE56 /* UtilDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilDate.swift; sourceTree = "<group>"; };
+		1E200D9F2C67305237B751D2 /* Pods-KLineDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoUITests/Pods-KLineDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61D7AAD3026934E7F2D631BA /* Pods-KLineDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoUITests/Pods-KLineDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B14B8BC785482EF7D363C2A /* Pods_KLineDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8963C5AE2AD43ED5F17B5702 /* Pods_KLineDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1A9B66C3E5B9B2F70D3E00 /* Pods-KLineDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E030606D674F4809017E2D4 /* Pods-KLineDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8FB6733ED73AE5FBDFAC4992 /* Pods-KLineDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4C53B6F06E25B9DD49E81BC /* Pods_KLineDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF06DE6A92BCFC1E8C0AD45 /* Pods-KLineDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1450329F2227D380004AFE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F36186CCA7F2AB01EF2561 /* Pods_KLineDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145032B32227D382004AFE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60ED087415F5FD1461D32A60 /* Pods_KLineDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145032BE2227D382004AFE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9194EAC90546D38B3EA25881 /* Pods_KLineDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145032992227D380004AFE56 = {
+			isa = PBXGroup;
+			children = (
+				145032A42227D380004AFE56 /* KLineDemo */,
+				145032B92227D382004AFE56 /* KLineDemoTests */,
+				145032C42227D382004AFE56 /* KLineDemoUITests */,
+				145032A32227D380004AFE56 /* Products */,
+				D8789790C78AD6D90F95E736 /* Pods */,
+				D56291899FB5579CCD9BBA64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		145032A32227D380004AFE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145032A22227D380004AFE56 /* KLineDemo.app */,
+				145032B62227D382004AFE56 /* KLineDemoTests.xctest */,
+				145032C12227D382004AFE56 /* KLineDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		145032A42227D380004AFE56 /* KLineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				145032DD2227D5BD004AFE56 /* Classes */,
+				145032D72227D5BD004AFE56 /* Resources */,
+				145032B12227D382004AFE56 /* Info.plist */,
+			);
+			path = KLineDemo;
+			sourceTree = "<group>";
+		};
+		145032B92227D382004AFE56 /* KLineDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				145032BA2227D382004AFE56 /* KLineDemoTests.swift */,
+				145032BC2227D382004AFE56 /* Info.plist */,
+			);
+			path = KLineDemoTests;
+			sourceTree = "<group>";
+		};
+		145032C42227D382004AFE56 /* KLineDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				145032C52227D382004AFE56 /* KLineDemoUITests.swift */,
+				145032C72227D382004AFE56 /* Info.plist */,
+			);
+			path = KLineDemoUITests;
+			sourceTree = "<group>";
+		};
+		145032D72227D5BD004AFE56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1450332E2227D7C3004AFE56 /* SampleData */,
+				145032D82227D5BD004AFE56 /* Assets.xcassets */,
+				145032D92227D5BD004AFE56 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		145032DD2227D5BD004AFE56 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				145033862227E885004AFE56 /* KLine */,
+				145033042227D644004AFE56 /* Common */,
+				1450330F2227D644004AFE56 /* Const */,
+				145033002227D644004AFE56 /* Model */,
+				145032F42227D643004AFE56 /* Modules */,
+				145032EC2227D643004AFE56 /* Service */,
+				145032EA2227D637004AFE56 /* Config.swift */,
+				145032DE2227D5BD004AFE56 /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		145032DE2227D5BD004AFE56 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				145032E52227D622004AFE56 /* NavigationController.swift */,
+				145032E62227D622004AFE56 /* ViewController.swift */,
+				145032E42227D622004AFE56 /* ViewControllerCell.swift */,
+				145032DF2227D5BD004AFE56 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		145032EC2227D643004AFE56 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				145032ED2227D643004AFE56 /* TargetType+extension.swift */,
+				145032EE2227D643004AFE56 /* BaseResponse.swift */,
+				145032EF2227D643004AFE56 /* Service.swift */,
+				145032F02227D643004AFE56 /* FromModelProtocol.swift */,
+				145032F12227D643004AFE56 /* KLine */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		145032F12227D643004AFE56 /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				145032F22227D643004AFE56 /* KLineService.swift */,
+				145032F32227D643004AFE56 /* KLineResponse.swift */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		145032F42227D643004AFE56 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				145032F52227D643004AFE56 /* Demo */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		145032F52227D643004AFE56 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				145032F62227D643004AFE56 /* Renderers */,
+				145032F82227D643004AFE56 /* Line2ChartViewController.swift */,
+				145032F92227D643004AFE56 /* CombinedViewController.swift */,
+				145032FA2227D643004AFE56 /* LineChartViewController.swift */,
+				145032FB2227D643004AFE56 /* CandleStickViewController.swift */,
+				145032FC2227D643004AFE56 /* Combined2ViewController.swift */,
+				145032FD2227D643004AFE56 /* BarViewController.swift */,
+				145032FE2227D643004AFE56 /* View */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		145032F62227D643004AFE56 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				145032F72227D643004AFE56 /* HXCandleStickChartRenderer.swift */,
+			);
+			path = Renderers;
+			sourceTree = "<group>";
+		};
+		145032FE2227D643004AFE56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				145032FF2227D643004AFE56 /* CombinedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		145033002227D644004AFE56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				145033012227D644004AFE56 /* FiveTradeModel.swift */,
+				145033022227D644004AFE56 /* KLineSampleDataResponse.swift */,
+				145033032227D644004AFE56 /* KLineModel2.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		145033042227D644004AFE56 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				145033052227D644004AFE56 /* Extension */,
+				1450330B2227D644004AFE56 /* Util */,
+				1450330D2227D644004AFE56 /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		145033052227D644004AFE56 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				145033902228D2A0004AFE56 /* Double+extension.swift */,
+				145033062227D644004AFE56 /* UIColor+extension.swift */,
+				145033072227D644004AFE56 /* UILabel+extension.swift */,
+				145033082227D644004AFE56 /* NSObject+extension.swift */,
+				145033092227D644004AFE56 /* UIView+extension.swift */,
+				1450330A2227D644004AFE56 /* UITableView+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1450330B2227D644004AFE56 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1450330C2227D644004AFE56 /* UtilSampleData.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1450330D2227D644004AFE56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1450330E2227D644004AFE56 /* BaseCell.swift */,
+				145033A02228D9B9004AFE56 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1450330F2227D644004AFE56 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				145033102227D644004AFE56 /* DefaultConst.swift */,
+				145033112227D644004AFE56 /* ColorConst.swift */,
+				145033122227D644004AFE56 /* APISConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		1450332E2227D7C3004AFE56 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				1450332F2227D7C3004AFE56 /* timeLineForDay.json */,
+				145033302227D7C3004AFE56 /* kLineForMonth.json */,
+				145033312227D7C3004AFE56 /* kLineForDay.json */,
+				145033322227D7C3004AFE56 /* kLineForWeek.json */,
+				145033332227D7C3004AFE56 /* timeLineForFiveday.json */,
+				145033342227D7C3004AFE56 /* fiveTrade.json */,
+				145033352227D7C3004AFE56 /* fiveTrade.temp_caseinsensitive_rename.json */,
+				145033362227D7C3004AFE56 /* SZ300033.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		145033862227E885004AFE56 /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				1450339B2228D6E1004AFE56 /* Util */,
+				145033962228D381004AFE56 /* Controller */,
+				145033952228D369004AFE56 /* Const */,
+				145033942228D35A004AFE56 /* Model */,
+				145033872227E893004AFE56 /* View */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		145033872227E893004AFE56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1450339E2228D987004AFE56 /* KLineInfoView.swift */,
+				145033892227E8B1004AFE56 /* KLineBaseView.swift */,
+				145033882227E8B1004AFE56 /* KLineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		145033942228D35A004AFE56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				145033A22228D9E4004AFE56 /* KLineInfoViewModel.swift */,
+				1450338E2228D202004AFE56 /* KLineModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		145033952228D369004AFE56 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				1450338C2228D179004AFE56 /* KLineConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		145033962228D381004AFE56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				145033972228D3C2004AFE56 /* KLineViewController.swift */,
+				145033992228D3F1004AFE56 /* KLineFullScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1450339B2228D6E1004AFE56 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				145033A42228DA06004AFE56 /* UtilDate.swift */,
+				1450339C2228D6EB004AFE56 /* UtilAlgorithm.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D56291899FB5579CCD9BBA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C53B6F06E25B9DD49E81BC /* Pods_KLineDemo.framework */,
+				6B14B8BC785482EF7D363C2A /* Pods_KLineDemoTests.framework */,
+				8963C5AE2AD43ED5F17B5702 /* Pods_KLineDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8789790C78AD6D90F95E736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFF06DE6A92BCFC1E8C0AD45 /* Pods-KLineDemo.debug.xcconfig */,
+				8E030606D674F4809017E2D4 /* Pods-KLineDemo.release.xcconfig */,
+				8C1A9B66C3E5B9B2F70D3E00 /* Pods-KLineDemoTests.debug.xcconfig */,
+				8FB6733ED73AE5FBDFAC4992 /* Pods-KLineDemoTests.release.xcconfig */,
+				1E200D9F2C67305237B751D2 /* Pods-KLineDemoUITests.debug.xcconfig */,
+				61D7AAD3026934E7F2D631BA /* Pods-KLineDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		145032A12227D380004AFE56 /* KLineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145032CA2227D382004AFE56 /* Build configuration list for PBXNativeTarget "KLineDemo" */;
+			buildPhases = (
+				0A9B98B5F6BAE93E7F9CF10B /* [CP] Check Pods Manifest.lock */,
+				1450329E2227D380004AFE56 /* Sources */,
+				1450329F2227D380004AFE56 /* Frameworks */,
+				145032A02227D380004AFE56 /* Resources */,
+				955E96292C1BCCED12022580 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLineDemo;
+			productName = KLineDemo;
+			productReference = 145032A22227D380004AFE56 /* KLineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		145032B52227D382004AFE56 /* KLineDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145032CD2227D382004AFE56 /* Build configuration list for PBXNativeTarget "KLineDemoTests" */;
+			buildPhases = (
+				1981045F77D821EA6998297C /* [CP] Check Pods Manifest.lock */,
+				145032B22227D382004AFE56 /* Sources */,
+				145032B32227D382004AFE56 /* Frameworks */,
+				145032B42227D382004AFE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145032B82227D382004AFE56 /* PBXTargetDependency */,
+			);
+			name = KLineDemoTests;
+			productName = KLineDemoTests;
+			productReference = 145032B62227D382004AFE56 /* KLineDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		145032C02227D382004AFE56 /* KLineDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145032D02227D382004AFE56 /* Build configuration list for PBXNativeTarget "KLineDemoUITests" */;
+			buildPhases = (
+				05C274F9ACB606682C16AC48 /* [CP] Check Pods Manifest.lock */,
+				145032BD2227D382004AFE56 /* Sources */,
+				145032BE2227D382004AFE56 /* Frameworks */,
+				145032BF2227D382004AFE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145032C32227D382004AFE56 /* PBXTargetDependency */,
+			);
+			name = KLineDemoUITests;
+			productName = KLineDemoUITests;
+			productReference = 145032C12227D382004AFE56 /* KLineDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1450329A2227D380004AFE56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "程守斌";
+				TargetAttributes = {
+					145032A12227D380004AFE56 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					145032B52227D382004AFE56 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 145032A12227D380004AFE56;
+					};
+					145032C02227D382004AFE56 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 145032A12227D380004AFE56;
+					};
+				};
+			};
+			buildConfigurationList = 1450329D2227D380004AFE56 /* Build configuration list for PBXProject "KLineDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 145032992227D380004AFE56;
+			productRefGroup = 145032A32227D380004AFE56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				145032A12227D380004AFE56 /* KLineDemo */,
+				145032B52227D382004AFE56 /* KLineDemoTests */,
+				145032C02227D382004AFE56 /* KLineDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		145032A02227D380004AFE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1450333C2227D7C3004AFE56 /* fiveTrade.json in Resources */,
+				145032E12227D5BD004AFE56 /* LaunchScreen.storyboard in Resources */,
+				145033372227D7C3004AFE56 /* timeLineForDay.json in Resources */,
+				145033382227D7C3004AFE56 /* kLineForMonth.json in Resources */,
+				1450333D2227D7C3004AFE56 /* fiveTrade.temp_caseinsensitive_rename.json in Resources */,
+				1450333E2227D7C3004AFE56 /* SZ300033.json in Resources */,
+				145032E02227D5BD004AFE56 /* Assets.xcassets in Resources */,
+				145033392227D7C3004AFE56 /* kLineForDay.json in Resources */,
+				1450333B2227D7C3004AFE56 /* timeLineForFiveday.json in Resources */,
+				1450333A2227D7C3004AFE56 /* kLineForWeek.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145032B42227D382004AFE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145032BF2227D382004AFE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C274F9ACB606682C16AC48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A9B98B5F6BAE93E7F9CF10B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1981045F77D821EA6998297C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955E96292C1BCCED12022580 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DGActivityIndicatorView/DGActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1450329E2227D380004AFE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1450338D2228D179004AFE56 /* KLineConst.swift in Sources */,
+				145033A52228DA06004AFE56 /* UtilDate.swift in Sources */,
+				145032E72227D622004AFE56 /* ViewControllerCell.swift in Sources */,
+				145033982228D3C2004AFE56 /* KLineViewController.swift in Sources */,
+				1450331A2227D644004AFE56 /* Line2ChartViewController.swift in Sources */,
+				145033152227D644004AFE56 /* Service.swift in Sources */,
+				145033192227D644004AFE56 /* HXCandleStickChartRenderer.swift in Sources */,
+				145033272227D644004AFE56 /* UIView+extension.swift in Sources */,
+				1450331F2227D644004AFE56 /* BarViewController.swift in Sources */,
+				145033262227D644004AFE56 /* NSObject+extension.swift in Sources */,
+				1450331C2227D644004AFE56 /* LineChartViewController.swift in Sources */,
+				1450332C2227D644004AFE56 /* ColorConst.swift in Sources */,
+				145032E82227D622004AFE56 /* NavigationController.swift in Sources */,
+				1450338F2228D202004AFE56 /* KLineModel.swift in Sources */,
+				145033242227D644004AFE56 /* UIColor+extension.swift in Sources */,
+				145033252227D644004AFE56 /* UILabel+extension.swift in Sources */,
+				145032EB2227D637004AFE56 /* Config.swift in Sources */,
+				145032E92227D622004AFE56 /* ViewController.swift in Sources */,
+				145033912228D2A0004AFE56 /* Double+extension.swift in Sources */,
+				1450332A2227D644004AFE56 /* BaseCell.swift in Sources */,
+				1450339F2228D987004AFE56 /* KLineInfoView.swift in Sources */,
+				1450339D2228D6EB004AFE56 /* UtilAlgorithm.swift in Sources */,
+				145033142227D644004AFE56 /* BaseResponse.swift in Sources */,
+				1450338A2227E8B1004AFE56 /* KLineView.swift in Sources */,
+				1450338B2227E8B1004AFE56 /* KLineBaseView.swift in Sources */,
+				145033222227D644004AFE56 /* KLineSampleDataResponse.swift in Sources */,
+				145033202227D644004AFE56 /* CombinedView.swift in Sources */,
+				1450331E2227D644004AFE56 /* Combined2ViewController.swift in Sources */,
+				145033292227D644004AFE56 /* UtilSampleData.swift in Sources */,
+				145033182227D644004AFE56 /* KLineResponse.swift in Sources */,
+				145033282227D644004AFE56 /* UITableView+extension.swift in Sources */,
+				1450331B2227D644004AFE56 /* CombinedViewController.swift in Sources */,
+				145033162227D644004AFE56 /* FromModelProtocol.swift in Sources */,
+				1450332B2227D644004AFE56 /* DefaultConst.swift in Sources */,
+				145033172227D644004AFE56 /* KLineService.swift in Sources */,
+				145033132227D644004AFE56 /* TargetType+extension.swift in Sources */,
+				1450331D2227D644004AFE56 /* CandleStickViewController.swift in Sources */,
+				145033232227D644004AFE56 /* KLineModel2.swift in Sources */,
+				145033212227D644004AFE56 /* FiveTradeModel.swift in Sources */,
+				1450332D2227D644004AFE56 /* APISConst.swift in Sources */,
+				145033A12228D9B9004AFE56 /* BaseView.swift in Sources */,
+				145033A32228D9E4004AFE56 /* KLineInfoViewModel.swift in Sources */,
+				145032E32227D5BD004AFE56 /* AppDelegate.swift in Sources */,
+				1450339A2228D3F1004AFE56 /* KLineFullScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145032B22227D382004AFE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145032BB2227D382004AFE56 /* KLineDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145032BD2227D382004AFE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145032C62227D382004AFE56 /* KLineDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		145032B82227D382004AFE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145032A12227D380004AFE56 /* KLineDemo */;
+			targetProxy = 145032B72227D382004AFE56 /* PBXContainerItemProxy */;
+		};
+		145032C32227D382004AFE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145032A12227D380004AFE56 /* KLineDemo */;
+			targetProxy = 145032C22227D382004AFE56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		145032D92227D5BD004AFE56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145032DA2227D5BD004AFE56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		145032C82227D382004AFE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		145032C92227D382004AFE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		145032CB2227D382004AFE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF06DE6A92BCFC1E8C0AD45 /* Pods-KLineDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5th.KLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		145032CC2227D382004AFE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E030606D674F4809017E2D4 /* Pods-KLineDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5th.KLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		145032CE2227D382004AFE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1A9B66C3E5B9B2F70D3E00 /* Pods-KLineDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5th.KLineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLineDemo.app/KLineDemo";
+			};
+			name = Debug;
+		};
+		145032CF2227D382004AFE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB6733ED73AE5FBDFAC4992 /* Pods-KLineDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5th.KLineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLineDemo.app/KLineDemo";
+			};
+			name = Release;
+		};
+		145032D12227D382004AFE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E200D9F2C67305237B751D2 /* Pods-KLineDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLineDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5th.KLineDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KLineDemo;
+			};
+			name = Debug;
+		};
+		145032D22227D382004AFE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D7AAD3026934E7F2D631BA /* Pods-KLineDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLineDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5th.KLineDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KLineDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1450329D2227D380004AFE56 /* Build configuration list for PBXProject "KLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145032C82227D382004AFE56 /* Debug */,
+				145032C92227D382004AFE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145032CA2227D382004AFE56 /* Build configuration list for PBXNativeTarget "KLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145032CB2227D382004AFE56 /* Debug */,
+				145032CC2227D382004AFE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145032CD2227D382004AFE56 /* Build configuration list for PBXNativeTarget "KLineDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145032CE2227D382004AFE56 /* Debug */,
+				145032CF2227D382004AFE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145032D02227D382004AFE56 /* Build configuration list for PBXNativeTarget "KLineDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145032D12227D382004AFE56 /* Debug */,
+				145032D22227D382004AFE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1450329A2227D380004AFE56 /* Project object */;
+}
